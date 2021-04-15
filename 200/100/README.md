@@ -25,6 +25,7 @@ service hello on new http:Listener(9090) {
     }
 }
 ```
+examples/hello_world.bal
 
 Now, you can run the service by running the following command.
 
