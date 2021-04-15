@@ -27,3 +27,9 @@ Again check the path:
 ```$ echo $PATH```
 
 To learn how to set the path permanently, see https://opensource.com/article/17/6/set-path-linux
+
+See if the executable is now found:
+
+```$ bal help```
+
+***NOTE***: We found that ```ballerina``` may not be recognized, whereas ```bal``` is recognized as a command.
