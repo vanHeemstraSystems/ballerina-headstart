@@ -8,5 +8,5 @@
 
 - ***For Linux or Mac OS***: set the PATH environment variable to point to the bin directory of the unzipped Ballerina distribution.
 - ***For Windows***: add a new environment variable specifying the following values:
-. - ***Variable name***: PATH
-. - ***Variable value***: The location of the bin directory of the unzipped Ballerina distribution. For example, C:\Program Files\Ballerina\ballerina-\bin
+- - ***Variable name***: PATH
+- - ***Variable value***: The location of the bin directory of the unzipped Ballerina distribution. For example, C:\Program Files\Ballerina\ballerina-\bin
