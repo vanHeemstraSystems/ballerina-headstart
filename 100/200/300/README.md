@@ -11,3 +11,19 @@ For the DEB file:
 For the RPM file:
 
 ```rpm -i <ballerina-home>/<ballerina-binary>.rpm ```
+
+If you would like to run the commands for ballerina from another directory then the directory in which the executable resides, add the executable to the environment variable PATH.
+
+See the current paths as follows:
+
+```$ echo $PATH```
+
+Now add the ballerina executable to the path, as follows:
+
+```$ export PATH=$PATH:/usr/lib64/ballerina```
+
+Again check the path:
+
+```$ echo $PATH```
+
+To learn how to set the path permanently, see https://opensource.com/article/17/6/set-path-linux
