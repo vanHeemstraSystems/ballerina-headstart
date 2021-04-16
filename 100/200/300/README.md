@@ -18,18 +18,30 @@ See the current paths as follows:
 
 ```$ echo $PATH```
 
+Now export the path of the installation directory to the BALLERINA_HOME environment variable.
+
+```$ export BALLERINA_HOME=/usr/lib64/ballerina```
+
+Again check the environment variable.
+
+```$ echo $BALLERINA_HOME```
+
 Now add the ballerina executable to the path, as follows:
 
-```$ export PATH=$PATH:/usr/lib64/ballerina```
+```$ export PATH=$PATH:$BALLERINA_HOME/bin```
 
-Again check the path:
+Again check the path.
 
 ```$ echo $PATH```
 
 To learn how to set the path permanently, see https://opensource.com/article/17/6/set-path-linux
 
-See if the executable is now found:
+See if the ballerina executable is now found:
 
 ```$ bal help```
+
+Check the ballerina executable's version.
+
+```$ bal version```
 
 ***NOTE***: We found that ```ballerina``` may not be recognized, whereas ```bal``` is recognized as a command.
