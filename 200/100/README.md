@@ -29,7 +29,7 @@ examples/hello_world.bal
 
 Now, you can run the service by running the following command.
 
-```$ ballerina run hello_world.bal```
+```$ bal run hello_world.bal```
 
 You get the following output.
 
