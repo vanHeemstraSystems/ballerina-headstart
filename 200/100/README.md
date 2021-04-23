@@ -35,7 +35,11 @@ You get the following output.
 
 ```[ballerina/http] started HTTP/WS listener 0.0.0.0:9090```
 
-This means your service is up and running. You can invoke the service using an HTTP client. In this case, we use cURL.
+This means your service is up and running. 
+
+You can invoke the service using an HTTP client ***in a separate terminal session***. 
+
+In this case, we use cURL.
 
 ```$ curl http://localhost:9090/hello/sayHello```
 
