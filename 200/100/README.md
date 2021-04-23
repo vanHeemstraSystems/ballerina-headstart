@@ -18,7 +18,7 @@ service /hello on new http:Listener(9090) {
     resource function get sayHello(http:Caller caller, http:Request request) {
 
         // Sends a response back to the caller.
-        error? result = caller->respond("Hello Ballerina!");
+        error? result = caller->respond("Hello Ballerina!\n");
         if (result is error) {
             io:println("Error in responding: ", result);
         }
