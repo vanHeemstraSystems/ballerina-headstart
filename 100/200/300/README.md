@@ -6,11 +6,15 @@
 
 For the DEB file:
 
-```dpkg -i <ballerina-home>/<ballerina-binary>.deb ```
+```$ dpkg -i <ballerina-home>/<ballerina-binary>.deb ```
 
 For the RPM file:
 
-```rpm -i <ballerina-home>/<ballerina-binary>.rpm ```
+```$ rpm -i <ballerina-home>/<ballerina-binary>.rpm ```
+
+For example:
+
+```$ rpm -i https://dist.ballerina.io/downloads/swan-lake-alpha5/ballerina-linux-installer-x64-swan-lake-alpha5.rpm```
 
 If you would like to run the commands for ballerina from another directory then the directory in which the executable resides, add the executable to the environment variable PATH.
 
