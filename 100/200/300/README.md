@@ -40,6 +40,13 @@ Again check the path.
 
 To learn how to set the path permanently, see https://opensource.com/article/17/6/set-path-linux
 
+In short, update ```~/.bashrc``` with adding the following line:
+
+```
+export BALLERINA_HOME=/usr/lib64/ballerina
+export PATH=$PATH:$BALLERINA_HOME/bin
+```
+
 See if the ballerina executable is now found:
 
 ```$ bal help```
