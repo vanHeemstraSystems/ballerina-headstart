@@ -16,3 +16,6 @@ See [README.md](./400/README.md)
   
 ## 500 - Uninstalling Ballerina
 See [README.md](./500/README.md)
+
+## 600 - Connecting to Ballerina Central
+See [README.md](./600/README.md)
