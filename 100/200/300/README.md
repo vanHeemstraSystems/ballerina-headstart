@@ -14,7 +14,7 @@ For the RPM file:
 
 For example:
 
-```$ sudo rpm -i https://dist.ballerina.io/downloads/swan-lake-beta1/ballerina-linux-installer-x64-swan-lake-beta1.rpm```
+```$ sudo rpm -i https://dist.ballerina.io/downloads/swan-lake-beta2/ballerina-linux-installer-x64-swan-lake-beta2.rpm``` 
 
 If you would like to run the commands for ballerina from another directory then the directory in which the executable resides, add the executable to the environment variable PATH.
 
